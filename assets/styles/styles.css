@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+:root {
+    --light-blue: #A2DBFA;
+    --dark-blue: #053742;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profile header {
+    text-align: center;
+}
+
+body header {
+    display: inline;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-left: 30px;
+    flex: 1;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+}
+
+ul {
+    margin: auto 30px auto 0;
+}
+
+.jumbotron {
+    justify-content: center;
+    padding: 30px 50px 50px 50px;
+    background-color: var(--dark-blue);
+    color: white;
+}
+
+.jumbotron-box {
+    height: 400px;
+    margin: 0 30px;
+    display: block;
+}
+
+.jumbotron-box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jumbotron-box-2 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: white;
+    margin: 0;
+}
+
+#jumbotron-text {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+button {
+    width: 250px;
+    padding: 12px 25px;
+    background-color: var(--light-blue);
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+
+#jumbotron-image {
+    text-align: right;
+    height: 95%;
+}
+
+nav {
+    background-color: var(--dark-blue);
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+#nav-masuk {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+    color: var(--dark-blue);
+    padding: 2px 12px;
+    border-radius: 30px;
+}
+
+#content {
+    margin: 35px 0;
+}
+
+h3 {
+    color: var(--dark-blue);
+    font-size: 24px;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.pencegahan {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pencegahan-box {
+    text-align: center;
+    width: 20%;
+    max-width: 350px;
+    padding: 30px 10px;
+    margin: 0 15px 25px 15px;
+}
+
+.pencegahan-box img {
+    width: 30%;
+    max-height: 100px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.pencegahan-box h5,
+p {
+    margin: 0;
+}
+
+.pencegahan-box h5 {
+    margin-bottom: 5px;
+}
+
+#layanan-headline {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.layanan {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.layanan-column {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    max-width: 1200px;
+    margin: 0;
+}
+
+.layanan-berita-2,
+.layanan-vaksin-1 {
+    flex: 1;
+}
+
+.layanan-berita-2,
+.layanan-vaksin-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.layanan-row img {
+    width: 400px;
+}
+
+.layanan-row h5 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.layanan-row p {
+    margin: 15px 0;
+}
+
+.layanan-row button {
+    background-color: var(--dark-blue);
+    font-size: 14px;
+    width: 200px;
+    color: white;
+}
+
+.layanan .layanan-berita-1,
+.layanan-vaksin-1 {
+    margin-right: 30px;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-blue);
+}
+
+.profile {
+    width: 270px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+h5 {
+    margin: 20px 0 20px 0;
+    font-size: 18px;
+    color: var(--dark-blue);
+}
+
+.profile-header img {
+    display: block;
+    margin: 0 auto 0 auto;
+    border-radius: 100%;
+    width: 50%;
+}
+
+.profile-section {
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-section th,
+td {
+    font-size: 12px;
+    text-align: left;
+}
+
+footer {
+    padding: 35px;
+    color: white;
+    background-color: var(--dark-blue);
+    text-align: center;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-box {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-box a {
+    text-decoration: none;
+}
+
+.footer-box i {
+    font-size: 25px;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 100%;
+    color: var(--dark-blue);
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+    .jumbotron {
+        flex-direction: column-reverse;
+        padding: 30px 20px;
+    }
+    .pencegahan {
+        flex-direction: column;
+    }
+    .pencegahan-box {
+        width: 85%;
+    }
+    .layanan-column {
+        flex-direction: column;
+        margin: 10px;
+    }
+    .layanan-vaksin-1 {
+        order: 2;
+    }
+}
